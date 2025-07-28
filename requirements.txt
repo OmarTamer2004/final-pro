@@ -8,3 +8,7 @@ tensorflow==2.16.1
 numpy==1.23.5
 pillow
 """)
+!git add requirements.txt
+!git commit -m "fix: switch to tensorflow==2.16.1 to support Python 3.10 in Streamlit Cloud"
+!git push origin main
+
