@@ -1,4 +1,10 @@
-streamlit
+# الدخول لمجلد المشروع
+%cd /content/final-pro
+
+# تحديث requirements.txt بإصدار مناسب
+with open("requirements.txt", "w") as f:
+    f.write("""streamlit
 tensorflow==2.16.1
 numpy==1.23.5
 pillow
+""")
